@@ -3,11 +3,11 @@
 Nodejs: 17.18.0
 Tech Stack: Nodejs, Expressjs, MongoDB and JWT.
 
-#Note
+# Note
 
 We need to pass JWT as bearer token for accessing all the APIs.
 
-#APIs
+# APIs
 
 ● Searching the API for a movie title/IMDB ID and saving the results to the local database.
 Route: /movie/:moviename. We need to pass the movie name as argument to get the data from OMDB API. Also, we can add these data to mongo database.
