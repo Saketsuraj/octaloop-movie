@@ -17,8 +17,6 @@ mongoose.connection.once('open',function(){
     console.log('Error', err);
 })
 
-// route to orders
-//app.use("/stocks-list", stockList);
 app.use(userRoute)
 app.use(movieRoute)
 
