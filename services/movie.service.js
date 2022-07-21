@@ -37,7 +37,7 @@ exports.getMovie = async function (query, movieName) {
         }
 }
 
-//Stock-Search with fuzzy search
+//Update movie info
 exports.updateMovieInfo = async function (query, dataToModify) {
     try {
         await movieModel.updateOne({ title: dataToModify.title }, { $set: {year: dataToModify.year} }).exec()

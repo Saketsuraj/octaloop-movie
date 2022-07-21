@@ -17,7 +17,7 @@ exports.updateMovie = async function (req, res, next) {
     var dataToModify = req.body;
     console.log(dataToModify)
     try {
-        var StocksSymbols = await MovieService.updateMovieInfo({}, dataToModify)
+        var updatedMovie = await MovieService.updateMovieInfo({}, dataToModify)
         return res.status(200).json({ status: true, message: 'Data updated successfully' });
     } catch (e) {
         return res.status(400).json({ status: 400, message: e.message });
