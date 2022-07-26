@@ -1,5 +1,11 @@
 # octaloop-movie
 
+# Steps to run the project
+1. Clone the project from github using git clone.
+2. Create a mongo database. DB name: movies, user:localhost, port:27017
+3. npm install with node version 17.18.0
+4. RUN node index.js
+
 Nodejs: 17.18.0
 Tech Stack: Nodejs, Expressjs, MongoDB and JWT.
 
